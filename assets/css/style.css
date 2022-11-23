@@ -118,6 +118,8 @@ main{
     font-weight: 800;
 }
 
+/*------VIDEO SECTION--------*/
+
 .video-section{
     padding: 24px;
     display: grid;
@@ -132,9 +134,9 @@ main{
 }
 
 .video-recomendation img{
-    width: 250px;
+    width: 100%;
     object-fit: cover;
-    height: 140px;
+    height: auto;
 }
 
 .recomendation-data{
