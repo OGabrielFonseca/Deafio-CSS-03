@@ -89,12 +89,76 @@ header{
 /* -------------MAIN--------------*/
 
 main{
-    padding: 28px 15px 15px 75px;
     display: flex;
     flex-direction: row;
 }
 
-.video-recomendation{
-    
+/* -----------NAV ----------------*/
+
+.menu{
+    background-color: white;
+    width: 220px;
+    justify-content: left;
+    align-items: left;
+    padding: 28px;
+}
+.menu li{
+    display: inline-flex;
+    margin-bottom: 16px;
+    align-items: center;
 }
 
+.menu p{
+    margin-left: 18px;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.menu .bold{
+    font-weight: 800;
+}
+
+.video-section{
+    padding: 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-auto-flow: row;
+    gap: 14px;
+}
+.video-recomendation{   
+    padding: 16px;
+
+}
+
+.video-recomendation img{
+    width: 250px;
+    object-fit: cover;
+    height: 140px;
+}
+
+.recomendation-data{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.channel-avatar img{
+    height: 42px;
+    width: 42px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.recomendation-description{
+    color: #515151;
+    font-size: .7rem;
+    font-weight: 400;
+}
+
+.recomendation-title{
+    font-size: .8rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
