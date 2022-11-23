@@ -7,4 +7,4 @@ Link Figma: https://www.figma.com/file/KknwioExyqKD3D2eSVFrcW/Desafio-Grid---DIO
 
 ![image](https://user-images.githubusercontent.com/91344667/203613717-0d7fb5cc-8094-4267-8aec-db6dc6993fcd.png)
 
-Link to my page:
+Link to my page: https://ogabrielfonseca.github.io/Deafio-CSS-03/
